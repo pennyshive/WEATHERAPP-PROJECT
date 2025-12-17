@@ -1,13 +1,14 @@
 body {
-  background-color: #f9f7fe;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/176/600/original/sunrise-desktop-pyyl8kwk19v52eva.jpg?1765961491");
   font-family: "Roboto", sans-serif;
 }
+
 header {
-  border-bottom: 1px solid #f9f7fe;
+  border-bottom: 0.5px solid black;
   padding: 0 0 30px 0;
 }
 footer {
-  border-top: 1px solid #f9f7fe;
+  border-top: 1px solid black;
   padding: 30px 0 0 0;
   text-align: center;
   font-size: 13px;
@@ -15,29 +16,36 @@ footer {
   color: rgb(0, 0, 0, 0.5);
 }
 a {
-  color: #885df1;
+  color: red;
 }
 main {
   padding: 30px 0;
 }
 .weather-app {
-  background-color: white;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/176/600/original/sunrise-desktop-pyyl8kwk19v52eva.jpg?1765961491");
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
   border-radius: 16px;
   max-width: 600px;
-  margin: 45px auto;
+  margin: 0px auto;
   padding: 30px;
 }
 #search-form-input {
+  background: radial-gradient(
+    328px at 2.9% 15%,
+    rgb(191, 224, 251) 0%,
+    rgb(232, 233, 251) 25.8%,
+    rgb(252, 239, 250) 50.8%,
+    rgb(234, 251, 251) 77.6%,
+    rgb(240, 251, 244) 100.7%
+  );
   border: none;
   border-radius: 6px;
   font-size: 16px;
   padding: 15px 30px;
-  background-color: #f9f7fe;
-  width: 70%;
+  width: 75%;
 }
 #search-form-button {
-  background-color: #885df1;
+  background-color: rgb(36, 36, 244);
   color: white;
   padding: 15px 30px;
   border-radius: 6px;
@@ -52,7 +60,7 @@ main {
   line-height: 48px;
 }
 .weather-app-details {
-  color: rgba(39, 33, 66, 0.4);
+  color: rgba(39, 33, 66, 0.8);
   font-size: 16px;
   line-height: 20px;
   font-weight: 500;
@@ -81,4 +89,13 @@ main {
   margin-top: 6px;
   font-size: 28px;
   font-weight: bond;
+}
+.weather-app-footer {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/176/600/original/sunrise-desktop-pyyl8kwk19v52eva.jpg?1765961491");
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  border-radius: 16px;
+  max-width: 600px;
+  margin: 0px auto;
+  padding: 30px;
+  margin: 10px auto;
 }

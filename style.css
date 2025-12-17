@@ -90,6 +90,33 @@ main {
   font-size: 28px;
   font-weight: bond;
 }
+.weather-forecast {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.weather-forecast-date {
+  text-align: center;
+  color: rgba(39, 33, 66, 0.8);
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.weather-forecast-icon {
+  text-align: center;
+  font-size: 38px;
+}
+.weather-forecast-temperatures {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  margin-top: 10px;
+}
+.weather-forecast-temperature {
+  padding: 0 5px;
+}
+
 .weather-app-footer {
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/176/600/original/sunrise-desktop-pyyl8kwk19v52eva.jpg?1765961491");
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
